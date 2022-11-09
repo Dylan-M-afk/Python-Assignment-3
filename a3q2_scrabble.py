@@ -1,9 +1,3 @@
-# Write a funtion that takes a word and returns the Scrabble™ score for that word.
-# Inside the function, create a dictionary that maps from letters to point values.
-# Then use the dictionary to compute the score
-import string
-
-
 def get_scrabble_score_for_word(word: str) -> int:
     score = 0
     word = word.lower()
