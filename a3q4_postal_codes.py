@@ -15,3 +15,8 @@ def get_details_from_postal_code(postal_code: str):
         case _:
             return_list.append('urban')
     return return_list
+
+if __name__ == "__main__":
+    print("~~~Enter a postal to get its details~~~")
+    user_postal_code = input('Enter a word: ')
+    print(f'The details for {user_postal_code} are: {get_details_from_postal_code(user_postal_code)}')

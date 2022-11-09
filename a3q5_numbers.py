@@ -35,4 +35,6 @@ def write_out_number(number: int) -> str:
 
 
 if __name__ == "__main__":
-    print(write_out_number(111))
+    print("~~~Enter a number to recieve its written form~~~")
+    user_num = int(input('Enter a word: '))
+    print(f'{user_num} written out is: {write_out_number(user_num)}')

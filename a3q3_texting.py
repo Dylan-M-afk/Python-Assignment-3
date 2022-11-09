@@ -12,5 +12,6 @@ def message_to_keys(message) -> str:
 
 
 if __name__ == '__main__':
-    print(message_to_keys('hello'))
-
+    print("~~~Enter a word to get its keypad form!~~~")
+    user_word = input('Enter a word: ')
+    print(f'The keypad form for {user_word} is: {message_to_keys(user_word)}')  
